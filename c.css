@@ -1,0 +1,160 @@
+/* Reset and basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f1e45;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Banner Section */
+.banner {
+    background-color: #1e2f60;
+    padding: 20px;
+    border: 2px solid #007BFF;
+    border-radius: 8px;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.sub-heading {
+    color: #a0c4ff;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.banner h2 {
+    font-size: 18px;
+    color: white;
+}
+
+.banner span {
+    color: #00aaff;
+}
+
+.banner p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.get-vaccine, .help-centre {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.get-vaccine {
+    background-color: #00aaff;
+    color: white;
+}
+
+.help-centre {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+/* Main Content */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.vaccine-info {
+    position: relative;
+    background-color: #3b5998;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.vaccine-image {
+    width: 80%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.specialists {
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+}
+
+/* Schedule Section */
+.schedule {
+    background-color: #1e2f60;
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+}
+
+.schedule h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.info p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #00aaff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
